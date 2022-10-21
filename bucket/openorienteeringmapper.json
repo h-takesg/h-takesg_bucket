@@ -1,0 +1,20 @@
+{
+    "version": "0.9.5",
+    "homepage": "https://www.openorienteering.org/apps/mapper/",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/OpenOrienteering/mapper/releases/download/v0.9.5/OpenOrienteering-Mapper-0.9.5-Windows-x64.zip",
+            "hash": "288a98e079c8b6e41b08f4e34c9a5d6fb133ee663131bcc0c9d052d8b53538d5",
+            "extract_dir": "OpenOrienteering-Mapper-0.9.5-Windows-x64"
+        }
+    },
+    "bin": [
+        "Mapper.exe"
+    ],
+    "shortcuts": [
+        [
+            "Mapper.exe",
+            "OpenOrienteeringMmapper"
+        ]
+    ]
+}
