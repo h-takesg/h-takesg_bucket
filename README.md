@@ -15,4 +15,4 @@ How do I install these manifests?
 To add this bucket, run `scoop bucket add h-takesg_bucket https://github.com/h-takesg/h-takesg_bucket`. To install, do `scoop install <manifest>`.
 
 ---
-This bucket is generated from [ScoopInstaller/BucketTemplate](https://github.com/ScoopInstaller/BucketTemplate).
+This bucket was generated from [ScoopInstaller/BucketTemplate](https://github.com/ScoopInstaller/BucketTemplate).
