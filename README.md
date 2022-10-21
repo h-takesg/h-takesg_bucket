@@ -1,23 +1,18 @@
-# Scoop Bucket Template
+# h-takesg_bucket
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+入れようと思ったらscoopになかった子たち．
+あとバグってそうだったけど原因がどこにあるのかわからなかった子．
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+## 使い方
+`scoop bucket add h-takesg_bucket https://github.com/h-takesg/h-takesg_bucket`
+
+
+[![Excavator](https://github.com/h-takesg/h-takesg_bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/h-takesg/h-takesg_bucket/actions/workflows/excavator.yml)
 
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add <bucketname> https://github.com/<username>/<bucketname>`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add h-takesg_bucket https://github.com/h-takesg/h-takesg_bucket`. To install, do `scoop install <manifest>`.
 
-How do I contribute new manifests?
-----------------------------------
-
-To make a new manifest contribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
-
-----
-
-#### To use this template
-
-- Modify the Readme.md and the bin/auto-pr.ps1 files accordingly.
-- Enable GitHub Actions for this repository.
+---
+This bucket is generated from [ScoopInstaller/BucketTemplate](https://github.com/ScoopInstaller/BucketTemplate).
