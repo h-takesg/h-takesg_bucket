@@ -5,6 +5,7 @@
     "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.13.2/voicevox-windows-directml-0.13.2.zip",
     "hash": "899d983b074fc0e419456c9c08a3dc677cd6a152ccd6fffe19a4381024ec0874",
     "bin": "VOICEVOX.exe",
+    "extract_dir": "VOICEVOX",
     "shortcuts": [
         [
             "VOICEVOX.exe",
