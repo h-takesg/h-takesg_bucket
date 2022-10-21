@@ -1,4 +1,5 @@
 # h-takesg_bucket
+[![Excavator](https://github.com/h-takesg/h-takesg_bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/h-takesg/h-takesg_bucket/actions/workflows/excavator.yml)
 
 入れようと思ったらscoopになかった子たち．
 あとバグってそうだったけど原因がどこにあるのかわからなかった子．
@@ -7,7 +8,6 @@
 `scoop bucket add h-takesg_bucket https://github.com/h-takesg/h-takesg_bucket`
 
 
-[![Excavator](https://github.com/h-takesg/h-takesg_bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/h-takesg/h-takesg_bucket/actions/workflows/excavator.yml)
 
 How do I install these manifests?
 ---------------------------------
