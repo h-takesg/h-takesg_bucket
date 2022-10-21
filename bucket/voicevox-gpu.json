@@ -2,16 +2,20 @@
     "version": "0.12.2",
     "homepage": "https://voicevox.hiroshiba.jp/",
     "license": "LGPL-3.0-only",
-    "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.12.2/voicevox-windows-nvidia-0.12.2.zip",
-    "hash": "ccc34cc96dceee9510ce921b881105a84ffde6d5e1b35ba519647950a9f2e66b",
-    "extract_dir": "VOICEVOX",
-    "bin": [
-        "VOICEVOX.exe"
-    ],
+    "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.13.2/voicevox-windows-directml-0.13.2.zip",
+    "hash": "899d983b074fc0e419456c9c08a3dc677cd6a152ccd6fffe19a4381024ec0874",
+    "bin": "VOICEVOX.exe",
     "shortcuts": [
         [
             "VOICEVOX.exe",
             "VOICEVOX"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/VOICEVOX/voicevox",
+        "regex": "tag/([\\w.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/VOICEVOX/voicevox/releases/download/$version/voicevox-windows-directml-$version.zip"
+    }
 }
