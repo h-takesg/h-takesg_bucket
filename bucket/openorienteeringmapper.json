@@ -1,6 +1,7 @@
 {
     "version": "0.9.5",
     "homepage": "https://www.openorienteering.org/apps/mapper/",
+    "license":"GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/OpenOrienteering/mapper/releases/download/v0.9.5/OpenOrienteering-Mapper-0.9.5-Windows-x64.zip",
