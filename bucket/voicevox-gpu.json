@@ -1,9 +1,9 @@
 {
-    "version": "0.13.3",
+    "version": "0.13.4",
     "homepage": "https://voicevox.hiroshiba.jp/",
     "license": "LGPL-3.0-only",
-    "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.13.3/voicevox-windows-directml-0.13.3.zip",
-    "hash": "89090976d5cbd3a212855dc53777b8fe1b84d11ead08dc4805a367388f6dc5b6",
+    "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.13.4/voicevox-windows-directml-0.13.4.zip",
+    "hash": "53c85fdd936c689ffca1a62dec9f62afeefe7fcdcd9483280f8b33a26507c5f0",
     "bin": "VOICEVOX.exe",
     "extract_dir": "VOICEVOX",
     "shortcuts": [
